@@ -1,0 +1,1 @@
+Just some snippets for showing live stream on webpage, with OpenCV and Flask. 
