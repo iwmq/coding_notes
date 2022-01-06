@@ -1,3 +1,19 @@
+Multiboot Flash Drive
+----
+It is very common that some people need to install different operating systems.
+For example, a robot engineer may maintain computers with more than one ROS
+distributions which run on Ubuntu 16.04/18.04/20.04. Nowadays, large capacity
+flash drives are cheap, so put multiple boot ISO images in one flash drive is
+possible and handy. Of course, tools are needed to do multibooting.
+
+One popular multibooting tool is YUMI, which is good but run only on Windows.
+See https://www.pendrivelinux.com/yumi-multiboot-usb-creator/.
+
+Another multibooting tool which run both on Windows and Linux is Ventoy. It provides
+command line, GTK/Qt GUI and Web-based GUI on Linux. See https://ventoy.net/en/index.html.
+
+For both above-mentioned tools, after creating the boot drive, ISO images files
+can be directly put in the drive and appear in the boot menu.
 
 Create A Desktop Application
 ----
