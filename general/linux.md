@@ -52,3 +52,10 @@ a `.desktop` launch entry can be created in the `~/.lonfig/autostart` directory
 with a field `X-GNOME-Autostart-enabled=true`.
 
 An easy way to do this is via `Startup Applications Preferences`.
+
+Navigate Diretories With z.sh
+----
+`z.sh` is a bash script which remembers visited directories and jump between them
+with a very easy way.
+
+See https://github.com/rupa/z/.
