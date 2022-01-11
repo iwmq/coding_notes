@@ -59,3 +59,17 @@ Navigate Diretories With z.sh
 with a very easy way.
 
 See https://github.com/rupa/z/.
+
+
+Install Kernel With Mainline
+----
+To install latest Linux kernel, there is a convineint tool call `mainline`.
+
+See github.com/bkw777/mainline.
+
+
+Nginx Playground
+----
+Test nginx configration online.
+
+See https://nginx-playground.wizardzines.com.
