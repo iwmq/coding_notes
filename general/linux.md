@@ -73,3 +73,21 @@ Nginx Playground
 Test nginx configration online.
 
 See https://nginx-playground.wizardzines.com.
+
+
+Neovim Customization
+----
+A very powerful and easy tool for customizing neovim, making it like an IDE.
+
+See https://github.com/yetone/cosmos-nvim.
+
+
+Install Fonts
+----
+On Linux (in my case, Ubuntu), fonts can be installed locally by copying font files into `~./fonts`.
+
+`Nerd Fonts` is a collection of free iconic font families. To install `UbuntuMono Nerd Font`,
+download it from its website (https://www.nerdfonts.com/font-downloads), extract font files by running
+`unzip UbuntuMono.zip -d ~/.fonts`, then running `sudo fc-cache -f -v`. Open any application (say Terminal),
+set font to any of the newly-installed font. These fonts are crucial for the `cosmos-nvim` tool, for
+displaying its rich set of icons on UI.
