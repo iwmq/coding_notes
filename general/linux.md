@@ -79,6 +79,9 @@ Neovim Customization
 ----
 A very powerful and easy tool for customizing neovim, making it like an IDE.
 
+If installation fails, remove `~/.local/share/nvim/site/pack/packer`, then
+re-open nvim to re-start installation.
+
 See https://github.com/yetone/cosmos-nvim.
 
 
