@@ -44,3 +44,9 @@ The Linux Command Line
 A awesome book about Linux command line and shell scripting.
 
 See http://linuxcommand.org/
+
+The Free Lunch Is Over
+----
+I read a Chinese translation of this article way before I became a coder.
+
+http://gotw.ca/publications/concurrency-ddj.htm
