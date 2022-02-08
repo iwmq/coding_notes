@@ -26,3 +26,13 @@ if [ -n "${PYTHONPATH:-}" ] ; then
     unset PYTHONPATH
 fi
 ```
+
+Run CPython Tests
+----
+This section describes how to build CPython from source and run tests.
+
+```bash
+    cd cpython && mkdir debug && cd debug
+    ../configure --with-pydebug && make
+    make test  TESTOPTS='-v test_cprofile
+```
