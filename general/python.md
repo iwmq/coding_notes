@@ -36,3 +36,19 @@ This section describes how to build CPython from source and run tests.
     ../configure --with-pydebug && make
     make test  TESTOPTS='-v test_cprofile
 ```
+
+Accelerate Loops And NumPy
+----
+Using Numba, pure Python loops and NumPy functions can be compiled into native
+machine code when executed for the first time, and subsequent executions will use
+the cached native code.
+
+Among Numba functions, the simplest and most useful one is the `njit` decorator.
+I used it to gain more than 10X speedup for a `Traveling Salesman Problem (TSP)`
+solver.
+
+Although Numba likes loops and NumPy functions, it fails to compile Python's list
+comprehension and NumPy arrays without a fixed data type.
+
+A useful trick is to profile your algorithm via `cProfile`, find the slowest lines,
+extract them into separate functions, the use Numba to accelerate these functions.
