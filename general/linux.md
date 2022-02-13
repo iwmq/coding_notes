@@ -94,3 +94,12 @@ download it from its website (https://www.nerdfonts.com/font-downloads), extract
 `unzip UbuntuMono.zip -d ~/.fonts`, then running `sudo fc-cache -f -v`. Open any application (say Terminal),
 set font to any of the newly-installed font. These fonts are crucial for the `cosmos-nvim` tool, for
 displaying its rich set of icons on UI.
+
+
+Decode Hardware Information
+----
+To check information of memory, run `sudo dmidecode --type memory`.
+
+This command will list all hardware types if not specified a type.
+
+All types are: bios, system, baseboard, chassis, processor, memory, cache, connector slot.
