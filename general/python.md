@@ -52,3 +52,14 @@ comprehension and NumPy arrays without a fixed data type.
 
 A useful trick is to profile your algorithm via `cProfile`, find the slowest lines,
 extract them into separate functions, the use Numba to accelerate these functions.
+
+virtualenvwrapper
+----
+
+`virtualenvwrapper` is one of the best Python development tools I have even known.
+It help you create and manage Python virtual environments in a very handy way.
+
+Had I known this gorgeous tool before, many of ugly `xxx_ws/xxx_venv` folders
+on my computers can be unnecessary.
+
+See https://virtualenvwrapper.readthedocs.io/en/latest/.
