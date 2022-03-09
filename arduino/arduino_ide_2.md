@@ -21,6 +21,7 @@ case 'linux':
 And change them to:
 
 ```javascript
+case 'linux':
 	dir = prepareDir("/tmp", "arduino_ide_2").result;
 	break;
 ```
