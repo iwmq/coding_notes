@@ -63,3 +63,10 @@ Had I known this gorgeous tool before, many of ugly `xxx_ws/xxx_venv` folders
 on my computers can be unnecessary.
 
 See https://virtualenvwrapper.readthedocs.io/en/latest/.
+
+Show output of containerized Python scripts
+----
+
+As Python buffers its output (both `stdout` and `stderr`), showing output (logs) of
+a containerized Python script via `docker logs -f <container-name>` often displays
+nothing. This could be fixed by invoking the script via `python -u <script>`.
