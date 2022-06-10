@@ -103,3 +103,10 @@ To check information of memory, run `sudo dmidecode --type memory`.
 This command will list all hardware types if not specified a type.
 
 All types are: bios, system, baseboard, chassis, processor, memory, cache, connector slot.
+
+
+Utils
+----
+Here are some simple command line utils to make life easier.
+- Show network traffic: `slurm`
+- Show operating system logo in As and common system information: `screenfetch`
