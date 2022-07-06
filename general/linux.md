@@ -125,3 +125,15 @@ Utils
 Here are some simple command line utils to make life easier.
 - Show network traffic: `slurm`
 - Show operating system logo in As and common system information: `screenfetch`
+
+
+Ubutun/Debian Package
+----
+To solve the following error during `sudo apt-get update`:
+```
+The following signatures couldn't be verified because the public key is not available: NO_PUBKEY XXXXXXXXXXXXXXXX
+```
+run:
+```
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys XXXXXXXXXXXXXXXX
+```
