@@ -8,7 +8,7 @@ Dependencies
 ----
 To build kernel, some system dependecies are needed:
 ```
-sudo apt instll build-essential make flex bison libssl-dev libelf-dev dwarves
+sudo apt install build-essential make flex bison libssl-dev libelf-dev dwarves
 ```
 
 
