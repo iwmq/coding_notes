@@ -1,9 +1,3 @@
-Hardware
-----
-To play with Linux kernel, I bought a mini PC with footprint as small as 72x72x44.5mm.
-It has a quad-core Intel Celeron N5105 processor.
-
-
 Dependencies
 ----
 To build kernel, some system dependecies are needed:

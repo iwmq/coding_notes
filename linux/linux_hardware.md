@@ -18,3 +18,12 @@ To install:
 ```
 sudo apt install cpupower-gui
 ```
+
+
+Decode Hardware Information
+----
+To check information of memory, run `sudo dmidecode --type memory`.
+
+This command will list all hardware types if not specified a type.
+
+All types are: bios, system, baseboard, chassis, processor, memory, cache, connector slot.

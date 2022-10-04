@@ -53,26 +53,13 @@ with a field `X-GNOME-Autostart-enabled=true`.
 
 An easy way to do this is via `Startup Applications Preferences`.
 
+
 Navigate Diretories With z.sh
 ----
 `z.sh` is a bash script which remembers visited directories and jump between them
 with a very easy way.
 
 See https://github.com/rupa/z/.
-
-
-Install Kernel With Mainline
-----
-To install latest Linux kernel, there is a convineint tool call `mainline`.
-
-See github.com/bkw777/mainline.
-
-
-Nginx Playground
-----
-Test nginx configration online.
-
-See https://nginx-playground.wizardzines.com.
 
 
 Neovim Customization
@@ -96,29 +83,6 @@ set font to any of the newly-installed font. These fonts are crucial for the `co
 displaying its rich set of icons on UI.
 
 
-Decode Hardware Information
-----
-To check information of memory, run `sudo dmidecode --type memory`.
-
-This command will list all hardware types if not specified a type.
-
-All types are: bios, system, baseboard, chassis, processor, memory, cache, connector slot.
-
-
-Networking Tools
-----
-The deprecated `net-tools` util set has been replaced by `ip` and `ss`. Now then two new utils are pre-installed
-in most Linux distros.
-
-- Use `ss` (standing for socket statistics) instead of `netstat`, for similar usage, with better output
-- Use `ip neigh` or `ip n` instead of `arp`
-- Use `ip addr` or `ip a` instead of `ifconfig`
-- Use `ip route` or `ip r` instead of `route`
-
-Besides, `iptables` has be replaced by its own developer with `nftables`.
-
-To controlling NetworkManager on command line, use `nmcli` or `nmtui`.
-
 
 Utils
 ----
@@ -139,27 +103,3 @@ run:
 ```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys XXXXXXXXXXXXXXXX
 ```
-
-
-Update Ubuntu 20.04 kernel
-----
-Ubuntu 20.04.5 comes with kernel 5.15, while some early versions stay on old kernel versions.
-To upgrade to kernel 5.15, first installing `linux-generic-hwe-20.04`, then do normal dist-upgrade.
-
-
-Customize Grub Menu
-----
-It is not wise to directly edit the automatically generated Grub configuration file `/boot/grub/grub.cfg`.
-However, if we do want to adjust Grub menu, there is a package named `grub-customizer` to help.
-
-NOTE: `grub-customizer` is not yet in the official repository of Ubuntu 22.04 due to some bug(s).
-
-
-Interact With Grub
-----
-To see Grub menu, hold `Shift` key during booting. Once Grub menu appears, one
-can press `e` to edit the current Grub configuration, or press `c` to bring up
-Grub command line.
-
-For a multi-boot computer, the Grub menu may show automatically for a few seconds,
-as long as the latest installed OS is Linux.
