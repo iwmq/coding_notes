@@ -1,0 +1,22 @@
+#!/usr/bin/env bpftrace
+
+/*
+ * A simple script to record start address of virtual memory allocation.
+*/
+#include <linux/mm_types.h>
+
+
+BEGIN
+{
+    printf("Start recording...Press Ctrl + C to stop");
+}
+
+kprobe:alloc_pages_vma
+{
+    @vma[comm] = ((struct vm_area_struct *)arg2)->vm_start;
+}
+
+END
+{
+    printf("Stopping...");
+}
