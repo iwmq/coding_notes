@@ -1,0 +1,16 @@
+#!/usr/bin/env bpftrace
+
+/*
+ * Monitor if a new programe is executed.
+
+ NOTE: args->pid and args->old_pid is identical.
+*/
+
+tracepoint:sched:sched_process_exec
+{
+    printf(
+        "Program '%s' started with pid %d\n", 
+        str(args->filename),
+        args->pid
+    );
+}
