@@ -2,15 +2,21 @@
 
 /*
  * A simple script to record start address of virtual memory allocation.
+
+ * NOTE: this is a bad example of using dynamic probes, as `alloc_pages_vma`
+ * is replaced by `vma_alloc_pages` since kernel v5.19.
 */
 #include <linux/mm_types.h>
 
 
 BEGIN
 {
-    printf("Start recording...Press Ctrl + C to stop");
+    printf("Start recording...Press Ctrl + C to stop\n");
 }
 
+/*
+ * Use `kprobe:alloc_pages_vma` for kernel v5.19 or newer.
+*/
 kprobe:alloc_pages_vma
 {
     @vma[comm] = ((struct vm_area_struct *)arg2)->vm_start;
@@ -18,5 +24,5 @@ kprobe:alloc_pages_vma
 
 END
 {
-    printf("Stopping...");
+    printf("Stopping...\n");
 }
