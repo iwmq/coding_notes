@@ -101,6 +101,9 @@ To erase a disk /dev/sdX:
 sudo shred -vzf /dev/sdX
 ```
 
+This is a very time-consuming command. For a 500 GB HDD disk, it took nearly
+16 hours to finish erasing.
+
 
 Ubutun/Debian Package
 ----
