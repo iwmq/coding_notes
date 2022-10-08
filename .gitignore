@@ -132,3 +132,6 @@ dmypy.json
 
 # editors
 .vscode
+
+# clangd
+compile_commands.json
