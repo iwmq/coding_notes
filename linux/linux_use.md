@@ -90,6 +90,7 @@ Here are some simple command line utils to make life easier.
 - Show operating system logo in As and common system information: `screenfetch`
 - Take and edit screenshots: `flameshot`
 - Record screen as `mp4` videos or `git` animations: `peek`
+- Show device information in a concise and accurate way: `inxi`
 
 
 Erase A Disk Securely
