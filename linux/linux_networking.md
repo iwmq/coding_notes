@@ -11,3 +11,20 @@ in most Linux distros.
 Besides, `iptables` has be replaced by its own developer with `nftables`.
 
 To controlling NetworkManager on command line, use `nmcli` or `nmtui`.
+
+
+Route Rules
+----
+A computer may be connected to more than one network interface cards (NICs),
+for example, an ethernet port and a wireless access point. Traffics are then
+routed via the NIC with lowest metric (higher priority).
+
+To use a specific NIC, we can lower its metric with `ifmetric`:
+```
+sudo ifmetric <ifname> <metric>.
+```
+
+This tool is very lightweight, can can be installed:
+```
+sudo apt install ifmetric
+```
