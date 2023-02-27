@@ -116,3 +116,22 @@ run:
 ```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys XXXXXXXXXXXXXXXX
 ```
+
+
+Creat System Images
+----
+It is very handy to create a bootable USB driver from a system image using `dd`:
+```
+dd if=xxx.iso of=/dev/sdax oflag=direct bs=4M status=progress
+```
+
+
+Terminal Emulators
+----
+There is always a default terminal emulators for each desktop environment:
+konsole for KDE plasma, GNOME terminal for GNOME.
+
+The useful multi-panel feature is available in KDE kosole, while absent in
+GNOME terminal (and its replacement, GNOME console). If we do not want to use
+terminal multiplexers (tmux, GNU screen, etc.), to obtain this feature, a nice
+alternative is needed. By now, prefer `Terminator`.

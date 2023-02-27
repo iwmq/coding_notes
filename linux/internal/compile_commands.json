@@ -1,0 +1,26 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-o",
+      "sched",
+      "sched.c"
+    ],
+    "directory": "/home/jay/projects/coding_notes/linux/internal",
+    "file": "/home/jay/projects/coding_notes/linux/internal/sched.c",
+    "output": "/home/jay/projects/coding_notes/linux/internal/sched"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-o",
+      "sched",
+      "utils.c"
+    ],
+    "directory": "/home/jay/projects/coding_notes/linux/internal",
+    "file": "/home/jay/projects/coding_notes/linux/internal/utils.c",
+    "output": "/home/jay/projects/coding_notes/linux/internal/sched"
+  }
+]
