@@ -92,6 +92,7 @@ Here are some simple command line utils to make life easier.
 - Record screen as `mp4` videos or `git` animations: `peek`
 - Show device information in a concise and accurate way: `inxi`
 - Send custom ICMP/UDP/TCP packets packets: `hping3`
+- Start a file sharing server: `npx hfs`
 
 
 Erase A Disk Securely
