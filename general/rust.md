@@ -17,3 +17,9 @@ To list all installed rust components:
 
 Installed components are located at:
 `C:\Users\<username>\.rustup\toolchains\stable-x86_64-pc-windows-gnu`.
+
+
+Rust Libraries
+---
+
+Bevy engine: https://bevyengine.org
