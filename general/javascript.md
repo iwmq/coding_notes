@@ -21,3 +21,12 @@ let result = Math.round(100 * (num + Number.EPSILON)) / 100;
 ```
 
 The out-of-box one is `lodash.round()`.
+
+
+Frontend Tools
+---
+Node management: [nvm](https://github.com/nvm-sh/nvm)
+
+Frontend build tools:
+- vite: [vite](https://vitejs.dev/)
+- farm (compatible with vite): [farm](https://farm-fe.github.io/)
