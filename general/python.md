@@ -70,3 +70,28 @@ Show output of containerized Python scripts
 As Python buffers its output (both `stdout` and `stderr`), showing output (logs) of
 a containerized Python script via `docker logs -f <container-name>` often displays
 nothing. This could be fixed by invoking the script via `python -u <script>`.
+
+
+pipx
+----
+A tool for installing system-wide isolated tools, extremely useful.
+To install pipx:
+```
+pip install --user -U pipx
+```
+
+To install ipython and add Pillow as its dependency:
+```
+pipx install ipython
+pipx inject ipython Pillow
+```
+
+
+poetry
+----
+A very useful too for managing Python projects, especially for development.
+
+To install:
+```
+pipx install poetry
+```
