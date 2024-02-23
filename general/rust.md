@@ -23,3 +23,14 @@ Rust Libraries
 ---
 
 Bevy engine: https://bevyengine.org
+
+
+Tools written in Rust
+---
+
+- Code editors: `lapce` and `zed`.
+
+- For Python: package management tool `uv` and formatter `ruff`, both from
+  `https://github.com/astral-sh`.
+
+- For frontend: `farm`.
