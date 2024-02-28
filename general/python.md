@@ -95,3 +95,9 @@ To install:
 ```
 pipx install poetry
 ```
+
+
+pdm
+----
+A modern Python package and dependency manager, similar to poetry.
+Website: [pdm](https://pdm-project.org/latest/)
