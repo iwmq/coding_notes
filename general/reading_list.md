@@ -50,3 +50,8 @@ The Free Lunch Is Over
 I read a Chinese translation of this article way before I became a coder.
 
 http://gotw.ca/publications/concurrency-ddj.htm
+
+
+Airfoil
+----
+An interesting article about how aircraft flies: https://ciechanow.ski/airfoil/
