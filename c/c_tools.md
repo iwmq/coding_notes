@@ -16,3 +16,12 @@ Search Path of Libs
 ----
 
 For GCC, run `ld --verbose | grep SEARCH_DIR | tr -s '; ' \\012`
+
+
+SIMD Intrinsics
+----
+For SIMD intrinsics, the headers are provided by GCC or LLVM, and located in:
+```
+/usr/lib/llvm-18/lib/clang/18/include/immintrin.h
+/usr/lib/gcc/x86_64-linux-gnu/12/include/immintrin.h
+```
