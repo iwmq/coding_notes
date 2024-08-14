@@ -101,3 +101,18 @@ pdm
 ----
 A modern Python package and dependency manager, similar to poetry.
 Website: [pdm](https://pdm-project.org/latest/)
+
+
+pyenv
+----
+A handy tool for managing multi python versions.
+
+It could be installed via [pyenv-installer](https://github.com/pyenv/pyenv-installer).
+
+NOTE: To ensure installer executes successfully, use ssh to clone it from githbub, run:
+```
+USE_SSH=1 sh bin/pyenv-installer
+```
+
+It will clone code from github for installing dev versions of python, which may
+be blocked in some area on the planet.

@@ -86,13 +86,15 @@ displaying its rich set of icons on UI.
 Utils
 ----
 Here are some simple command line utils to make life easier.
-- Show network traffic: `slurm`
+- Show network traffic by interface: `slurm`
+- Show network traffic by application: `nethogs`
 - Show operating system logo in As and common system information: `screenfetch` or `neofetch`
 - Take and edit screenshots: `flameshot`
 - Record screen as `mp4` videos or `git` animations: `peek`
 - Show device information in a concise and accurate way: `inxi`
 - Send custom ICMP/UDP/TCP packets packets: `hping3`
 - Start a file sharing server: `npx hfs`
+- Open a file with associated desktop application from terminal: `xdg-open`
 
 
 Erase A Disk Securely
