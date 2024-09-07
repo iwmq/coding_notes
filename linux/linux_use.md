@@ -88,7 +88,9 @@ Utils
 Here are some simple command line utils to make life easier.
 - Show network traffic by interface: `slurm`
 - Show network traffic by application: `nethogs`
-- Show operating system logo in As and common system information: `screenfetch` or `neofetch`
+- Show operating system logo in ASCII and common system information:
+  - `screenfetch` or `neofetch` (deprecated by its creator)
+  - `fastfetch` implemented in C
 - Take and edit screenshots: `flameshot`
 - Record screen as `mp4` videos or `git` animations: `peek`
 - Show device information in a concise and accurate way: `inxi`
