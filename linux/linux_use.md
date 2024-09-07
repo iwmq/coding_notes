@@ -86,6 +86,7 @@ displaying its rich set of icons on UI.
 Utils
 ----
 Here are some simple command line utils to make life easier.
+- Display details of CPU information: `cpuid`
 - Show network traffic by interface: `slurm`
 - Show network traffic by application: `nethogs`
 - Show operating system logo in ASCII and common system information:
