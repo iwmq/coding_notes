@@ -142,3 +142,12 @@ The useful multi-panel feature is available in KDE kosole, while absent in
 GNOME terminal (and its replacement, GNOME console). If we do not want to use
 terminal multiplexers (tmux, GNU screen, etc.), to obtain this feature, a nice
 alternative is needed. By now, prefer `Terminator`.
+
+
+Gnome Fractional Scaling
+---
+For Gnone on Wayland to have fractual scaling factors (125%, 150%, ect.):
+```
+gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+```
+See https://wiki.archlinux.org/title/HiDPI#Wayland
