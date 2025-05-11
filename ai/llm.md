@@ -20,3 +20,8 @@ Online Tools
 Visual Tokenizer: https://tokenizer.model.box/
 
 LLM Visualization: https://bbycroft.net/llm
+
+
+New Hubs
+---
+- https://news.smol.ai/
