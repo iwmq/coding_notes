@@ -20,6 +20,10 @@ With Roo Code extension, other models such as DeepSeek can be used.
 
 The good new is that Copilot is available and useful in VS Code.
 
+Since v1.100 (a.k.a April 2025 release), Copilot on VS Code is smarter and
+easier to use. The agent mode is available to all users. I used it to create a
+vivid demostration of the TSP problem in a single page.
+
 
 WindSurf (Based On VS Code)
 ---
@@ -43,3 +47,9 @@ I can use Zed with DeepSeek, but tool calling is not implemented with this model
 Neovim + LazyVim + avante.nvim
 ---
 I use DeepSeek in Neovim by LazyVim and avante.nvim. There are some bugs since avante.nvim is in early stage. The most frequent bug is fail to apply AI-generated code to file.
+
+
+Roo Code
+---
+Roo Code as extension on VS Code is also one of my early AI programming tools.
+I configured it to use DeepSeek API, but I am still waiting for autocomplete.
