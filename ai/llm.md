@@ -22,6 +22,7 @@ Visual Tokenizer: https://tokenizer.model.box/
 LLM Visualization: https://bbycroft.net/llm
 
 
-New Hubs
+News Hubs
 ---
 - https://news.smol.ai/
+- https://www.artificialintelligence-news.com/
