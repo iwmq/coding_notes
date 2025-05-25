@@ -28,8 +28,27 @@ and the model's weight won't be updated.
 
 #2: Training language models to follow instructions with human feedback
 ---
-
 URL: https://arxiv.org/abs/2203.02155
 
 From the pre-trained foundation model GPT-3, task-specific models can be fine-tunned
 with less examples. So resulting models can do more useful tasks.
+
+
+#3: SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering
+---
+URL: https://arxiv.org/abs/2405.15793
+
+As language models evolved, their most promising application is coding.
+
+A LLM can use tools to observe and change environment which is code repositories.
+Interacting with code requires a new category of efficient interface, called
+agent-computer interface (ACI) which consists of tools to look up files, search
+terms in files, create and edit files, run scripts, etc.
+
+The paper descibes a LLM agent which can fixes selected issues from widely used
+Python libraries. To fix an issue, the agent read the issue description, use a
+series of steps to reproduce it, update files, test it, then commit the change
+if it succeeds or give up if it runs out of budget. The series of steps to fix
+a issue is called a trajectory.
+
+The proposed ACI is a good description of currently popular agentic coding.
