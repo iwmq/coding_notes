@@ -52,3 +52,13 @@ if it succeeds or give up if it runs out of budget. The series of steps to fix
 a issue is called a trajectory.
 
 The proposed ACI is a good description of currently popular agentic coding.
+
+
+#4: BOND Capital AI Trends report
+---
+URL: https://www.bondcap.com/reports/tai
+
+Mary Meeker's report on trends of AI. The 340 slides summerize statistics and
+facts of AI. The digrams are beautiful.
+
+This is not a technical report, but I did learn new knowledge from it.
