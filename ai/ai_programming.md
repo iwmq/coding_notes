@@ -24,12 +24,14 @@ Since v1.100 (a.k.a April 2025 release), Copilot on VS Code is smarter and
 easier to use. The agent mode is available to all users. I used it to create a
 vivid demostration of the TSP problem in a single page.
 
+I have been a Copilot Pro user since June 12, 2025. The US$10/month is same as WindSurf which I stopped subscription now.
+
 
 WindSurf (Based On VS Code)
 ---
 WindSurf is my first paid AI tool. I used the codeium extension (renamed to WindSurf now) in VS Code, then switched to the standalone WindSurf editor. it is useful even for free plan users.
 
-I am lucky to be in the early bird plan so only $10/month is required instead of $15/month for Pro plan. It turns out I registed it in November 2024.
+I am lucky to be in the early bird plan so only $10/month is required instead of $15/month for Pro plan. It turns out I registered it in November 2024.
 
 
 Void Editor (Based On VS Code)
