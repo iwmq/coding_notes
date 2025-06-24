@@ -29,7 +29,7 @@ Learn Python ASTs, by building your own linter
 
 A very easy to understand introduction to Python's abstract syntax trees (ASTs).
 
-See https://sadh.life/post/ast/
+See https://tush.ar/post/ast/
 
 The Architecture of Open Source Applications
 ----
@@ -50,6 +50,11 @@ The Free Lunch Is Over
 I read a Chinese translation of this article way before I became a coder.
 
 http://gotw.ca/publications/concurrency-ddj.htm
+
+
+Fabien Sanglard's Website
+---
+Fun facts about early gaming systems: https://fabiensanglard.net/
 
 
 Airfoil
