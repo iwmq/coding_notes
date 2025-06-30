@@ -37,3 +37,14 @@ The Linux Command Line
 A awesome book about Linux command line and shell scripting.
 
 See http://linuxcommand.org/
+
+
+Problem Solving with Algorithms and Data Structures using Python
+---
+
+I have learned data structures and algorithms from books using traditional
+programming languages (aka C or Java). However, since those languages are
+either my favorite or my tools of the trade, I would like to have one book
+that teachs such knowledge in Python.
+
+URL: https://runestone.academy/ns/books/published/pythonds3/index.html
