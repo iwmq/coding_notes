@@ -31,3 +31,11 @@ The article presents modern understanding of entropy which is pretty new to me.
 I was astounded reading the subjective nature of entropy.
 
 https://www.quantamagazine.org/what-is-entropy-a-measure-of-just-how-little-we-really-know-20241213/
+
+
+The case for AGI by 2030
+----
+
+An article arguing whether and when the so-called AGI will come true.
+
+https://80000hours.org/agi/guide/when-will-agi-arrive/
