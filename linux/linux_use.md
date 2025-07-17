@@ -125,6 +125,9 @@ GNOME terminal (and its replacement, GNOME console). If we do not want to use
 terminal multiplexers (tmux, GNU screen, etc.), to obtain this feature, a nice
 alternative is needed. By now, prefer `Terminator`.
 
+There is a new terminal emulator `Ghostty` ('https://ghostty.org/') written in
+zig language. It provides multiple tabs and panels, higher performance.
+
 
 Gnome Fractional Scaling
 ---
