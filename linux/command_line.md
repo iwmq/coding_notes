@@ -18,3 +18,13 @@ Navigate Diretories With z.sh
 with a very easy way.
 
 See https://github.com/rupa/z/.
+
+
+File Managers
+---
+As a heavy user of terminal, I prefer to navigate directories and preview files
+right in terminal. I found `yazi` written in Rust is the right tool for such
+usage.
+
+
+The old-school `Midnight Commander` is an alternative.
