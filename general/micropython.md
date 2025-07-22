@@ -18,3 +18,9 @@ machine.bootloader()
 ```
 sudo dfu-util  --alt 0 -D PYBV10-20231005-v1.21.0.dfu
 ```
+
+
+RP2040
+---
+For Raspberry Pi's RP2040 boards, download the uf2 firmware, drag it to the
+massive storage, the reboot.
