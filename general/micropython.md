@@ -24,3 +24,20 @@ RP2040
 ---
 For Raspberry Pi's RP2040 boards, download the uf2 firmware, drag it to the
 massive storage, the reboot.
+
+To access RP2040's shell via /dev/ttyACM0, the user must be in the `dialout`
+group:
+```
+sudo usermod -a -G dialout $USER
+```
+
+
+Thonny
+---
+I use Thonny as IDE to develop scripts and connect to RP2040's shell.
+
+Thonny itself is a pure Python program with a few third-party dependencies.
+It can be run easily from source on Linux (not on Windows)
+
+The official standalone Windows installer runs happily on the platform, except
+the popup for auto complections (CompletionsBox) has blank help text.
