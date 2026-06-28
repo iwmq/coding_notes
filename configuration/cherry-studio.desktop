@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Cherry Studio
+Comment=A versatile AI assistant / client (AppImage)
+Exec="/home/jay/.local/appimages/Cherry-Studio-1.9.11-x86_64.AppImage"
+Icon=/home/jay/.local/appimages/Cherry-Studio-Logo.png
+Terminal=false
+Type=Application
+Categories=Utility;Office;AI;
+StartupWMClass=Cherry-Studio
