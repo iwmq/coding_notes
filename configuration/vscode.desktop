@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Code
+Comment=Visual Studio Code
+Exec="/home/jay/.local/VSCode-linux-x64/bin/code"
+Icon=/home/jay/.local/VSCode-linux-x64/resources/app/resources/linux/code.png
+Terminal=false
+Type=Application
+Categories=Utility;Office;AI;
+StartupWMClass=code
