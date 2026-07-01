@@ -1,0 +1,10 @@
+Make a web app which includes frontend and backend.
+
+Backend is based on fastapi and serves an index page and a few demo RESTful APIs. Use the modern python tool `uv` to manage the backend. The backend demo APIs are: (1) greeting user; (2) returning a table of robots which appear in famous movies; (3) calculating Fibonacci number from user input.
+Do not put all backend APIs in the main.py. Put each API in its own file under the api folder.
+
+The frontend is based on bun + vitejs + vuejs + tailwindcss + daisyui. All frontend and backend packages are latest stable versions. The frontend should expose these APIs via beautiful modern responsive web design.
+
+Make this web app friendly to developers. Let newbie developers follow you architecture with ease and they can extend this app for real-world use. So you should create docs including README.md and CONTRIBUTING.md.
+
+Init this project with git. Ensure .gitignore are good enough.
